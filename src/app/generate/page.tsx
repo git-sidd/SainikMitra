@@ -14,7 +14,7 @@ export default function Generate() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-orange-100 via-white to-green-100 px-4">
+    <div className="min-h-screen  flex items-center justify-center bg-gradient-to-br from-orange-100 via-white to-green-100 px-4">
       <div className="bg-white border-2 border-gray-200 p-8 rounded-2xl shadow-lg w-full max-w-md">
         {/* Indian Flag */}
         <div className="flex justify-center mb-6">
@@ -22,6 +22,8 @@ export default function Generate() {
             src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png"
             alt="Indian Flag"
             className="w-20 h-14 object-cover border border-gray-300 rounded"
+            width={50}
+            height={50}
           />
         </div>
 
@@ -36,7 +38,7 @@ export default function Generate() {
           <input
             type="text"
             placeholder="Your Full Name"
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-lg"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-black text-lg"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
