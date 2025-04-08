@@ -32,10 +32,10 @@ export default function Contribute() {
   useOutsideClick(ref, () => setActive(null));
 
   return (
-    <div className="w-full flex flex-col items-center justify-center gap-4 bg-black/50">
+    <div className="w-full flex flex-col items-center justify-center gap-4 bg-black/70 ">
        <div className="fixed top-0 left-0 w-full h-full -z-10">
         <video autoPlay loop muted playsInline className="w-full h-full object-cover">
-          <source src="/bgvid.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dr8jemvpw/video/upload/v1744148098/bgvid_lxcrhl.mp4" type="video/mp4" />
         </video>
       </div>
       <h1 className="mt-4 text-black text-2xl font-semibold text-center bg-gradient-to-r from-orange-400 via-white to-green-400 ... rounded-md min-w-[130px] p-1 px-2">
@@ -48,7 +48,7 @@ export default function Contribute() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/20 h-full w-full z-10"
+            className="fixed inset-0  bg-black/20 h-full w-full z-10"
           />
         )}
       </AnimatePresence>
@@ -214,9 +214,9 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "Kuldeep Kumar",
-    title: "Inspector",
-    src: "https://bharatkeveer.gov.in/martyrsMedia?martyrsId=663",
+    description: "Captain Vikram Batra",
+    title: "Indian Army officer",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/56/Vikram_Batra_PVC.jpg",
     ctaText: "Contribute ",
     ctaLink: "/login",
     content: () => {
@@ -224,16 +224,19 @@ const cards = [
         <div className="mb-1">
           <h2 className="font-semibold font-serif text-orange-500">Incident</h2>
           <p className=" overflow-visible">
-          On 19/08/2024 at 1100 hrs 01 Platoon of G/187 Bn launched joint Area Domination duty in the area of Chill Village under Police post Dudu (10 kms from Dudu), P.S.-Latti, Dist Udhampur, Jammu and Kashmir under command Sh. Mangej Kumar Mandiwal, Asstt. Comdt. along with SOG(Jammu and Kashmir ). While returning from village-Chill at around 1445 hrs militants fired upon the troops from the front side hilly area and in response the troops resorted to counter attack on the militants. Insp/GD Kuldeep Kumar who was in the front flank faced the militants gallantly and fired 04 rounds in the ongoing gun battle. During this exchange of fire, a bullet hit on head of Insp/GD Kuldeep Kumar who was leading the frontal counter attack. Later on he succumbed to his injuries and attained martyrdom in the highest traditions of CRPF and made the supreme sacrifice in service of the Nation.
+          ​Captain Vikram Batra, an officer of the Indian Army, displayed extraordinary valor during the Kargil War of 1999. He played a pivotal role in recapturing strategic points from enemy forces, notably Point 5140 and Point 4875. ​
+On July 7, 1999, during the operation to reclaim Point 4875, Captain Batra's unit encountered intense enemy resistance. Amidst the battle, he noticed a fellow officer severely injured and exposed to enemy fire. Demonstrating selfless courage, Captain Batra attempted to rescue his comrade. Tragically, while dragging the injured soldier to safety, Captain Batra was fatally wounded by enemy fire. ​
+The Indian Express
+His last words, "Jai Mata Di," reflected his unwavering spirit and dedication. Captain Batra's bravery and leadership were instrumental in India's success during the Kargil conflict. In recognition of his supreme sacrifice, he was posthumously awarded the Param Vir Chakra, India's highest military honor. 
           </p>
         </div>
       );
     },
   },
   {
-    description: "Kabir Das Uikey",
-    title: "Constable",
-    src: "https://bharatkeveer.gov.in/martyrsMedia?martyrsId=659",
+    description: "Colonel Waibhav Anil Kale",
+    title: " Indian Army Colonel",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/84/Indian_Col_Waibhav_Anil_Kale.jpg",
     ctaText: "Contribute",
     ctaLink: "/login",
     content: () => {
@@ -249,9 +252,9 @@ const cards = [
   },
 
   {
-    description: "Shailendra",
+    description: "Kiran Shekhawat",
     title: "Constable ",
-    src: "https://bharatkeveer.gov.in/martyrsMedia?martyrsId=660",
+    src: "https://www.aviation-defence-universe.com/wp-content/uploads/2020/03/Kiran-Shekhawat1.jpg",
     ctaText: "Contribute",
     ctaLink: "/login",
     content: () => {
@@ -259,7 +262,7 @@ const cards = [
         <div className="mb-1">
           <h2 className="font-semibold font-serif  text-orange-500">Incident</h2>
           <p className=" overflow-visible">
-          F/No. 175264093 CT/GD Shailendra of 201 CoBRA Bn, CRPF was tasked with the operational movement to CoBRA FOB Camp at Tekalgudem and Puvrati under PS Jagargunda in the Naxal hotbed of Sukma district of Chhattisgarh on 23/06/2024. At 1500 hrs when his vehicle was passing through Silger, it was targeted by Naxals using Improvised Explosive Device (IED) followed by intense firing. The attack was repulsed by the troops of 201 CoBRA Bn and F/No. 175264093 CT/GD Shailendra has displayed unwavering courage and fortitude before taking his last breath. Thus, he attained martyrdom in the highest traditions of CRPF and made the supreme sacrifice in service of the Nation.
+          Lt Kiran Shekhawat was born on 01 May 1988 in Mumbai into a Naval family. Daughter of Hon Lt Vijendra Singh Shekhawat and Smt Madhu Chauhan, Lt Kiran Shekhawat belonged to Sefarguwar village in Khetri Tehsil of Jhunjhunu district in Rajasthan. She completed her schooling from Kendriya Vidyalaya-II in Vishakhapatnam and then graduated with a Bachelor of Science from Andhra University. She then worked with a private bank before joining the Indian Naval Academy (INA) in Ezhimala, Kerala in 2010. Lt Shekhawat had married a fellow naval officer Lt Vivek Singh Chhoker from Kurthala near Gurgaon, where her mother-in-law Sunita Chhoker was a sarpanch and the family had some agricultural land.
           </p>
         </div>
       );

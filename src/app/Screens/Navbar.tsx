@@ -33,13 +33,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='text-white md:text-white hover:text-white rounded-sm hover:border-b-2 hover:scale-110 mb-4 md:mb-0  md:font-bold font-extrabold'>
-            <Link href="TopContributers">Top Contributors
+            <Link href="/schemes">Schemes
             </Link>
           </li>
-          <li className='text-white md:text-white hover:text-white rounded-sm hover:border-b-2 hover:scale-110 mb-4 md:mb-0  md:font-bold font-extrabold'>
-            <Link href="login">Log In
+          {/* <li className='text-white md:text-white hover:text-white rounded-sm hover:border-b-2 hover:scale-110 mb-4 md:mb-0  md:font-bold font-extrabold'>
+            <Link href="/login">Log In
             </Link>
-          </li>
+          </li> */}
           
           
         </ul>

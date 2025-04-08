@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import { Label } from "../../components/ui/label";
-import { Input } from "../../components/ui/input";
-import { cn } from "../../lib/utils";
+import { Label } from "../components/ui/label";
+import { Input } from "../components/ui/input";
+import { cn } from "../lib/utils";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
@@ -63,7 +63,7 @@ export default function SignupForm() {
       <div id="signup" className="max-w-md w-full mx-auto rounded-none md:rounded-2xl mt-4 p-4 md:p-8 shadow-input bg-white dark:bg-black/80 mb-4">
       <div className="fixed top-0 left-0 w-full h-full -z-10">
         <video autoPlay loop muted playsInline className="w-full h-full object-cover">
-          <source src="/bgvid.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dr8jemvpw/video/upload/v1744148098/bgvid_lxcrhl.mp4" type="video/mp4" />
         </video>
       </div>
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200 text-center">
@@ -78,18 +78,18 @@ export default function SignupForm() {
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
             <Label htmlFor="firstname">First name</Label>
-            <Input id="firstname" placeholder="Siddhesh" type="text" value={firstname} onChange={e=>setFirstname(e.target.value)} />
+            <Input id="firstname" placeholder="firstname" type="text" value={firstname} onChange={e=>setFirstname(e.target.value)} />
           </LabelInputContainer>
           <LabelInputContainer>
             <Label htmlFor="lastname">Last name</Label>
-            <Input id="lastname" placeholder="Patole" type="text"  value={lastname} onChange={e=>setLastname(e.target.value)} />
+            <Input id="lastname" placeholder="lastname" type="text"  value={lastname} onChange={e=>setLastname(e.target.value)} />
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
           <Input
             id="email"
-            placeholder="siddheshbluff45@gmail.com"
+            placeholder="email"
             type="email"
             value={email} 
             onChange={e=>setEmail(e.target.value)}

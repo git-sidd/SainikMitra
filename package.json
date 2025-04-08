@@ -7,7 +7,6 @@
     "dev": "next dev",
     "build": "next build ",
     "start": "next start"
-    
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.0",
@@ -16,6 +15,7 @@
     "bcryptjs": "^2.4.3",
     "clsx": "^2.1.1",
     "framer-motion": "^11.9.0",
+    "html2canvas": "^1.4.1",
     "mongoose": "^8.7.0",
     "next": "14.2.13",
     "next-auth": "^4.24.8",

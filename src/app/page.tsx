@@ -2,8 +2,9 @@ import ImagesSliderDemo  from "./imageslider/page";
 import AboutUs from "./about/page";
 import Contribute from "./contribute/page";
 import Gallery from "./gallery/page";
-import TopContributers from "./TopContributers/page";
-import Certificate from "./Certificate/page";
+
+import Certificate from "./getcertificate/page";
+import Schemes from "./schemes/page";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       {/* Background Video */}
       <div className="fixed top-0 left-0 w-full h-full -z-10">
         <video autoPlay loop muted playsInline className="w-full h-full object-cover">
-          <source src="/bgvid.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dr8jemvpw/video/upload/v1744148098/bgvid_lxcrhl.mp4" type="video/mp4" />
         </video>
       </div>
 
@@ -25,10 +26,7 @@ export default function Home() {
            
           </div>
         </div>
-        <div id="" className="flex flex-col justify-center items-center gap-4 bg-black/50 my-6 py-4">
-       
-          <TopContributers/>
-        </div>
+        
         <Gallery />
         
         

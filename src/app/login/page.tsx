@@ -16,7 +16,7 @@ export default function Login() {
       <div id="login" className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 mt-4 shadow-input bg-white dark:bg-black/80 md:mb-4 ">
         <div className="fixed top-0 left-0 w-full h-full -z-10">
           <video autoPlay loop muted playsInline className="w-full h-full object-cover">
-            <source src="/bgvid.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/dr8jemvpw/video/upload/v1744148098/bgvid_lxcrhl.mp4" type="video/mp4" />
           </video>
         </div>
         <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200 text-center">
@@ -29,7 +29,7 @@ export default function Login() {
         <form className="my-8" onSubmit={handleSubmit}>
           <LabelInputContainer className="mb-4">
             <Label htmlFor="email">Email Address</Label>
-            <Input id="email" placeholder="siddheshbluff45@gmail.com" type="email" />
+            <Input id="email" placeholder="email" type="email" />
           </LabelInputContainer>
           <LabelInputContainer className="mb-4">
             <Label htmlFor="password">Password</Label>
@@ -49,7 +49,7 @@ export default function Login() {
           <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
 
           <div className="text-center">
-            <p>Dont have an Account ? <span className="text-blue-500"><Link href={"login/signup"}>Sign Up</Link></span></p>
+            <p>Dont have an Account ? <span className="text-blue-500"><Link href={"/signup"}>Sign Up</Link></span></p>
           </div>
         </form>
       </div>

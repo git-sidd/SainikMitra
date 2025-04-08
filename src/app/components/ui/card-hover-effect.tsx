@@ -60,7 +60,7 @@ export const HoverEffect = ({
               alt={item.title}
               width={1000} // Adjusted width for image optimization
               height={600} // Adjusted height
-              className="rounded-2xl object-cover w-full h-full"
+              className="rounded-2xl object-contain w-full h-full"
               priority={true} // You can add priority for performance optimization
             />
           </Card>

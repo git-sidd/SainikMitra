@@ -10,7 +10,8 @@ export default function ImagesSliderDemo() {
     "/imgslider/imgslider3.avif",
   ];
   return (
-    <ImagesSlider className="h-[30rem] sm:h-[25rem] md:h-[30rem] w-full opacity-95  mb-4" images={images}>
+    <div className="bg-black/70 md:pt-1 pb-6">
+      <ImagesSlider className="h-[35rem] sm:h-[25rem] md:h-[35rem] w-full opacity-95  mb-4" images={images}>
       <motion.div
         initial={{
           opacity: 0, 
@@ -29,5 +30,6 @@ export default function ImagesSliderDemo() {
         
       </motion.div>
     </ImagesSlider>
+    </div>
   );
 }
