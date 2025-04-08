@@ -3,6 +3,7 @@
 import { useSearchParams, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import html2canvas from "html2canvas";
+import Image from "next/image";
 
 export default function CertificatePage() {
   const searchParams = useSearchParams();
@@ -26,7 +27,6 @@ export default function CertificatePage() {
     link.href = canvas.toDataURL("image/png");
     link.click();
 
-    // Redirect to home after short delay
     setTimeout(() => {
       router.push("/");
     }, 1000);
@@ -34,13 +34,8 @@ export default function CertificatePage() {
 
   return (
     <div className="relative w-full min-h-screen flex flex-col items-center justify-center bg-white">
-      {/* Certificate Image Container */}
       <div ref={certRef} className="relative w-[90%] max-w-4xl border shadow-md">
-        <img
-          src="/certificate.jpg"
-          alt="Certificate"
-          className="w-full"
-        />
+        <Image src="/certificate.jpg" alt="Certificate" className="w-full" width={1000} height={700} />
         {name && (
           <div className="absolute text-5xl font-serif font-bold text-black top-[47%] w-full text-center">
             {name}
@@ -48,7 +43,6 @@ export default function CertificatePage() {
         )}
       </div>
 
-      {/* Download Button */}
       <button
         onClick={handleDownload}
         className="mt-8 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
@@ -58,3 +52,5 @@ export default function CertificatePage() {
     </div>
   );
 }
+
+export const dynamic = "force-dynamic";

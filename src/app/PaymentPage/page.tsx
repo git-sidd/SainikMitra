@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Script from "next/script";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 declare global {
   interface Window {
@@ -72,7 +73,7 @@ const PaymentPage = () => {
 
       {/* Indian Flag */}
       <div className="mb-4">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png" alt="Indian Flag" className="w-24 h-16 rounded shadow" />
+        <Image src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png" alt="Indian Flag" className="w-24 h-16 rounded shadow" />
       </div>
 
       <div className="bg-white border border-gray-300 rounded-2xl shadow-xl p-8 w-full max-w-md text-center">

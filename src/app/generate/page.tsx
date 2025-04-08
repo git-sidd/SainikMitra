@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-
+import Image from "next/image";
 export default function Generate() {
   const [name, setName] = useState("");
   const router = useRouter();
@@ -18,7 +18,7 @@ export default function Generate() {
       <div className="bg-white border-2 border-gray-200 p-8 rounded-2xl shadow-lg w-full max-w-md">
         {/* Indian Flag */}
         <div className="flex justify-center mb-6">
-          <img
+          <Image
             src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png"
             alt="Indian Flag"
             className="w-20 h-14 object-cover border border-gray-300 rounded"
@@ -26,7 +26,7 @@ export default function Generate() {
         </div>
 
         <h1 className="text-3xl font-bold text-center text-orange-600 mb-2">
-          वीरों को नमन 🇮🇳
+          वीरों को नमन 
         </h1>
         <p className="text-center text-gray-700 mb-6 text-sm">
           Enter your name below to generate your certificate in honor of our brave martyrs.
