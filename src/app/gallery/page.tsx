@@ -11,32 +11,32 @@ export const projects: Project[] = [
   {
     title: "",
     description: "A technology company that builds economic infrastructure for the internet.",
-    src: "https://bharatkeveer.gov.in/media?imageId=31",
+    src: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1750966852/0ef774b2-694e-4976-a3d3-3fd2d361253d.png",
   },
   {
     title: "",
     description: "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    src: "https://bharatkeveer.gov.in/media?imageId=36",
+    src: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1750966825/1eaab319-b78d-47fe-9f73-a9ebbcb7f54c.png",
   },
   {
     title: "",
     description: "A multinational technology company that specializes in Internet-related services and products.",
-    src: "https://bharatkeveer.gov.in/media?imageId=37",
+    src: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1750966787/a73a45f6-9978-45f0-8bf8-4887ccca0078.png",
   },
   {
     title: "",
     description: "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    src: "https://bharatkeveer.gov.in/media?imageId=38",
+    src: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1750966730/c1a6931a-8fca-4726-9e64-154da5190846.png",
   },
   {
     title: "",
     description: "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    src: "https://bharatkeveer.gov.in/media?imageId=39",
+    src: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1750966699/3fd963c8-9fd3-4e37-a780-5cdf712c0ae7.png",
   },
   {
     title: "",
     description: "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    src: "https://bharatkeveer.gov.in/media?imageId=41",
+    src: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1750966640/17ce3371-83d1-4bdc-b46b-e87714e346bb.png",
   },
 ];
 
