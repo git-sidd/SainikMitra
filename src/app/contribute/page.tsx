@@ -165,7 +165,7 @@ export default function Contribute() {
                 </motion.h3>
                 <motion.p
                   layoutId={`description-${card.description}-${id}`}
-                  className="text-neutral-600 dark:text-neutral-400 text-center md:text-left text-base"
+                  className="text-neutral-400 text-center md:text-center text-base"
                 >
                   {card.description}
                 </motion.p>
@@ -174,7 +174,7 @@ export default function Contribute() {
           </motion.div>
         ))}
       </ul>
-      <button className="cursor-pointer z-20 bg-green-500 p-1 px-2 rounded-md mb-4">More..</button>
+      
     </div>
   );
 }
@@ -223,7 +223,7 @@ const cards = [
       return (
         <div className="mb-1">
           <h2 className="font-semibold font-serif text-orange-500">Incident</h2>
-          <p className=" overflow-visible">
+          <p className=" md:overflow-visible">
           ​Captain Vikram Batra, an officer of the Indian Army, displayed extraordinary valor during the Kargil War of 1999. He played a pivotal role in recapturing strategic points from enemy forces, notably Point 5140 and Point 4875. ​
 On July 7, 1999, during the operation to reclaim Point 4875, Captain Batra's unit encountered intense enemy resistance. Amidst the battle, he noticed a fellow officer severely injured and exposed to enemy fire. Demonstrating selfless courage, Captain Batra attempted to rescue his comrade. Tragically, while dragging the injured soldier to safety, Captain Batra was fatally wounded by enemy fire. ​
 The Indian Express
